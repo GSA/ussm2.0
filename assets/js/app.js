@@ -1,7 +1,4 @@
 
-// Add your custom javascript here
-console.log("Hi from Federalist");
-
 jQuery(document).ready(function () {
 
     let pages = [
