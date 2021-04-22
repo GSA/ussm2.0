@@ -19,7 +19,7 @@ where we provide an easy way to manage your navigation system
             <div class="sidebar-menu">
                 <ul class="usa-sidenav">
                     <li class="usa-sidenav__item bs" style="background-color:#0f274a; margin-bottom: 5px; margin-top: 31px;" >
-                        <a class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework' %} usa-current-1{% endif %}"  href="{{site.baseurl}}/fibf/" style="outline:none">
+                        <a class="usa-nav__link{% if page.title == {{ page.title }} %} usa-current-1{% endif %}"  href="{{site.baseurl}}/fibf/" style="outline:none">
                             <div class="image-txt-container ">
                                 <img src="../assets/images/fibf-home.png" style="width:35px;margin-right:12px;" alt="FIBF Home">
                                 <img src="../assets/images/fibf-home-icon-update.png" style="width:35px;margin-right:12px;" class="img-top" alt="FIBF Home">
@@ -30,7 +30,7 @@ where we provide an easy way to manage your navigation system
                         </a>
                     </li>
                     <li class="usa-sidenav__item bs" style="background-color:#0f274a; margin-bottom: 5px;" >
-                        <a class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - Financial Management Standards' %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-fm/" style="outline:none">
+                        <a class="usa-nav__link{% if page.title == {{ page.title }} %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-fm/" style="outline:none">
                             <div class="image-txt-container ">
                                 <img src="../assets/images/fm-icon.png" style="width:35px;margin-right:12px;" alt="Financial Management">
                                 <img src="../assets/images/icon.fm 2.png" style="width:35px;margin-right:12px;" class="img-top" alt="Financial Management">
@@ -55,7 +55,7 @@ where we provide an easy way to manage your navigation system
                         <div class="sidebar-submenu{% if page.title contains 'Federal Integrated Business Framework - HR Management Services' %} active{% endif %}" style="background-color:#1b355c;">
                             <ul class="dropdown-menu usa-sidenav__sublist" >
                                 <li>
-                                        <a class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - HR Management Services - Talent Acquisition Standards' %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-hr/" style="outline:none">
+                                        <a class="usa-nav__link{% if page.title == {{ page.title }} %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-hr/" style="outline:none">
                                         <div class="image-txt-container">
                                             <img src="../assets/images/talent-acq-icon.png" style="width:30px; margin-right:12px;" alt="Talent Acquisition">
                                             <span>Talent Acquisition
@@ -66,7 +66,7 @@ where we provide an easy way to manage your navigation system
 
                                 </li>
                                 <li>
-                                    <a style="outline:none" class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - HR Management Services - Talent Development Standards' %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-hr-td/">
+                                    <a style="outline:none" class="usa-nav__link{% if page.title == {{ page.title }} %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-hr-td/">
                                         <div class="image-txt-container">
                                             <img src="../assets/images/talent-dev-icon.png" style="width:30px; margin-right:12px;" alt="Talent Development">
                                             <span>Talent Development
@@ -77,7 +77,7 @@ where we provide an easy way to manage your navigation system
 
                                 </li>
                                 <li>
-                                    <a style="outline:none" class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - HR Management Services - Employee Performance Management Standards' %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-hr-epm/">
+                                    <a style="outline:none" class="usa-nav__link{% if page.title == {{ page.title }} %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-hr-epm/">
                                         <div class="image-txt-container">
                                             <img src="../assets/images/EPM-icon.png" style="width:30px; margin-right:12px;" alt="Employee Performance Management">
                                             <span>Employee Performance Management
@@ -88,7 +88,7 @@ where we provide an easy way to manage your navigation system
 
                                 </li>
                                 <li>
-                                    <a style="outline:none" class="usa-nav__link{% if page.title == 'Federal Integrated Business Framework - HR Management Services - Compensation and Benefits Standards' %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-hr-cb/">
+                                    <a style="outline:none" class="usa-nav__link{% if page.title == {{ page.title }} %} usa-current-1{% endif %}" href="{{site.baseurl}}/fibf-hr-cb/">
                                         <div class="image-txt-container">
                                             <img src="../assets/images/compensation-ben-icon.png" style="width:30px; margin-right:12px;" alt="Compensation and Benefits">
                                             <span>Compensation and Benefits
