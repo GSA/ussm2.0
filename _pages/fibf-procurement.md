@@ -12,4 +12,5 @@ all-zip: assets/files/downloads/acq/Contract-Writing-Download-All.zip
 lifecycle-content: procurement/lifecycle.html
 capabilities-content: procurement/capabilities.html
 data-elements-content: procurement/data-elements.html
+use-cases-content: procurement/use-cases.html
 ---
