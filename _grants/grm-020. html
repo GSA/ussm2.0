@@ -3,7 +3,6 @@ layout: json-layout
 type: grm-020
 permalink: /business-standards-api/grm/business-lifecycle/grm-020/
 ---
-<pre>
 [
  {
    "Identifier": "GRM.020.010",
@@ -16,4 +15,3 @@ permalink: /business-standards-api/grm/business-lifecycle/grm-020/
    "Description": "Determine and document candidate/selected reviewers; Evaluate and document application eligibility;  Evaluate and document application merit; Assess and document application project budget; Evaluate and document applicant risk and develop risk reduction strategy for applicants, if needed; Develop, document and obtain approval for applicant award recommendations, including funding;  Determine funds availability and provide funds commitment information for approved applicants; Notify approved applicants of award selection; Review, document and approve updated project plans, including additional funding; Evaluate and approve award continuation/renewal applications; Review and approve updated project plans"
  }
 ]
-</pre>

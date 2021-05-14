@@ -3,7 +3,6 @@ layout: json-layout
 type: grm-050
 permalink: /business-standards-api/grm/business-lifecycle/grm-050/
 ---
-<pre>
 [
  {
    "Identifier": "GRM.050.010",
@@ -16,4 +15,3 @@ permalink: /business-standards-api/grm/business-lifecycle/grm-050/
    "Description": "Determine and document if all awards for grant program have been closed out; Evaluate program performance and financial reports to determine the need for grant program funds reprogramming and document results;  Verify and document that all grant program closeout actions are completed"
  }
 ]
-</pre>
