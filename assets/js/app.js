@@ -62,10 +62,10 @@ function imageChecker(url){
         img= '<img src="../img/file-word.svg" class="margin-right-05" width="16" valign="middle" alt="word">';
     }
     else if ((url.includes(".xls"))){
-        img= '<img src="../img/file-excel.svg" class="margin-right-05" width="16" valign="middle" alt="Excel">';
+        img= '<img src="../assets/images/icon.xls.png" class="margin-right-05" width="16" valign="middle" alt="Excel">';
     }
     else if ((url.includes(".pdf"))){
-        img= '<img src="../img/file-pdf.svg" class="margin-right-05" width="16" valign="middle" alt="PDF">';
+        img= '<img src="../assets/images/icon.pdf.png" class="margin-right-05" width="16" valign="middle" alt="PDF">';
     }
     return img
 }
